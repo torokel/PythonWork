@@ -1,0 +1,12 @@
+# 非公開にしたい学習ファイル群
+scratchpads/
+*.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.vscode/
+
+# データやパスワード類
+*.csv
+*.xlsx
+*.xlsm
+secrets/
