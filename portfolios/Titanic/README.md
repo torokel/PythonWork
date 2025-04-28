@@ -27,7 +27,7 @@ PandasとSeabornを用いて可視化を実施しました。
 
 - 使用特徴量：Pclass、Sex、Age、SibSp、Parch、Fare、Embarked、Cabin_known、Title
 - SexとEmbarkedはラベルエンコーディング
-- TitleはOneHotEncodingによりダミー変数化
+- Titleは登場回数が30以上のもの（Mr, Miss, Mrs, Master）に絞って使用
 - 欠損値（Age、Embarked）は中央値・最頻値で補完
 
 ---
